@@ -1,0 +1,25 @@
+{
+  "name": "bundled-es-modules-nanoid",
+  "version": "2.0.1",
+  "description": "Mirror of nanoid, bundled and exposed as ES module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c ./rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitmerin/bundled-es-modules-nanoid.git"
+  },
+  "author": "Amit Merin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitmerin/bundled-es-modules-nanoid/issues"
+  },
+  "homepage": "https://github.com/amitmerin/bundled-es-modules-nanoid#readme",
+  "devDependencies": {
+    "nanoid": "^2.0.1",
+    "rollup": "^1.6.0",
+    "rollup-plugin-commonjs": "^9.2.1"
+  }
+}
